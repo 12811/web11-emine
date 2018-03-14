@@ -1,0 +1,55 @@
+﻿body 
+{
+   background-image:url("Images/mebeli.jpg"); 
+    background-repeat: no-repeat;
+    background-size:100%100%;
+}
+ margin: 10;
+ padding: 10;
+ font-family: arial;
+ 
+}
+
+ul 
+{
+ margin: 20px 20px;
+ padding: 0;
+ display: flex;
+ 
+}
+
+ul li
+{
+ list-style: none;
+ padding:  10px 20px; 
+}
+
+ul  li a {
+ text-decoration:none;
+ text-transform: downcase;
+ font-size: 2em;
+ color:B0E0E6;
+  
+ position: relative;
+}
+
+ul li a:before
+{
+ content: '';
+ width: 0px;
+ height: 5px;
+ 
+ position: absolute;
+ top: 100%;
+ left: 0;
+ transition: .5s;
+}
+
+ul li:hover a:before 
+{
+ width: 50%;
+ transform: translateX(100%);
+}
+{
+h1
+}
